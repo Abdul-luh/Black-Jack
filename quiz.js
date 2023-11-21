@@ -94,19 +94,47 @@ let player2Time = 102;
 
 // --------------------------------------------------------------------
 
-let age = 15;
-let ticketprice = "";
+// let age = 15;
+// let ticketprice = "";
 
-if (age < 6) {
-	ticketprice = "free";
-} else if (age < 18) {
-	ticketprice = "child discount";
-} else if (age < 27) {
-	ticketprice = "student discount";
-} else if (age < 67) {
-	ticketprice = "full price";
-} else {
-	ticketprice = "senior citizen discount";
-}
+// if (age < 6) {
+// 	ticketprice = "free";
+// } else if (age < 18) {
+// 	ticketprice = "child discount";
+// } else if (age < 27) {
+// 	ticketprice = "student discount";
+// } else if (age < 67) {
+// 	ticketprice = "full price";
+// } else {
+// 	ticketprice = "senior citizen discount";
+// }
+
+// --------------------------------------------------------------------
+
+// let largeCountries = ["china", "india", "usa", "indonesia", "pakistan"];
+// console.log("the five largest countries in the world: ");
+// for (let i = 0; i < largeCountries.length; i++) {
+// 	console.log(" - " + largeCountries[i]);
+// }
+
+// --------------------------------------------------------------------
+
+let largeCountries = ["Tuvalu", "india", "usa", "indonesia", "monaco"];
+// console.log(largeCountries);
+// largeCountries.pop();
+// console.log(largeCountries);
+// largeCountries.push("pakistan");
+// console.log(largeCountries);
+// largeCountries.shift();
+// console.log(largeCountries);
+// largeCountries.unshift("china");
+// console.log(largeCountries);
+
+// --------------------------------------------------------------------
+
+let hands = ["rock", "paper", "scissors"];
+
+let randNum = Math.floor(Math.random() * 3);
+console.log(hands[randNum]);
 
 // --------------------------------------------------------------------
