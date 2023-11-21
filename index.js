@@ -1,5 +1,5 @@
 let playerName = prompt("Please input your name:");
-let playerChip = prompt("please input your chip");
+let playerChip = prompt("please input your chip $$");
 
 let player = {
 	name: playerName,
